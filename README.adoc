@@ -2,7 +2,7 @@
 
 == Overview
 
-This README is an overview of an AttainIT Technologies prototype for demonstrating an
+This README is an overview of an AttainIT Technologies prototype for demonstrating a
 Spring Boot mailer integration with Microsoft 365 (formerly known as Office 365).
 This prototype is discussed in a article on the AttainIT Technologies Blog found at
 https://blog.attainittech.com.
