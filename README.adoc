@@ -1,0 +1,31 @@
+:toc:
+
+== Overview
+
+This README is an overview of an AttainIT Technologies prototype for demonstrating an
+Spring Boot mailer integration with Microsoft 365 (formerly known as Office 365).
+This prototype is discussed in a article on the AttainIT Technologies Blog found at
+https://blog.attainittech.com.
+
+== Developer Workstation Notes
+
+There is one properties file missing from this GitHub repository due to security concerns.
+It is explicitly referenced in the .gitignore file to prevent it from being pushed to
+GitHub. It order to run this application, the following file must be created in
+src/main/resources:
+
+sensitive.properties
+```
+spring.mail.username=my-user@mydomain.com
+spring.mail.password=my-secure-password
+prototype.o365.email.from=webmaster@mydomain.com
+prototype.o365.email.to=destination-user@your-domain.com
+```
+
+==  Reference Documentation
+
+For further reference, please consider the following sections:
+
+* https://docs.gradle.org[Official Gradle documentation]
+* https://docs.spring.io/spring-boot/docs/2.6.5/gradle-plugin/reference/html/[Spring Boot Gradle Plugin Reference Guide]
+* https://docs.spring.io/spring-boot/docs/2.6.5/reference/htmlsingle/#boot-features-email[Java Mail Sender]
